@@ -11,7 +11,7 @@ A simple RESTful API server which supports basic CRUD operations.
 ## Installation
 Clone this repository
 ```sh
-$ git clone git@github.com:ivanmarban/spring-boot-movies-restful.git
+$ git clone https://github.com/ivanmarban/spring-boot-movies-restful.git
 ```
 Modify application.properties in src/main/resources for your environment and run the application
 ```sh
