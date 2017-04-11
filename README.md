@@ -17,7 +17,7 @@ Modify application.properties in src/main/resources for your environment and run
 ```sh
 $ mvn spring-boot:run
 ```
-##Testing the API using cURL
+## Testing the API using cURL
 Get all movies:
 ```sh
 $ curl -i -X GET http://localhost:3000/api/v1/movies 
@@ -39,7 +39,8 @@ Modify movie with _id value of 5514677bda31962c1189aa23
 $ curl -i -X PUT -H 'Content-Type: application/json' -d '{"title": "2001: A Space Odyssey","year": "1968","rated": "G","runtime": "160 min","genre": "Sci-Fi","director": "Stanley Kubrick"}' http://localhost:3000/api/v1/movie
 ```
 
-##REST API
+## REST API
+
 URL  | HTTP Verb | POST Body | Result 
 ------------- | ------------- | ------------- | -------------
 /api/v1/movies  | GET  | empty  | Return all movies
